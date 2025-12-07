@@ -1,0 +1,47 @@
+about.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the Authors – REALLIFE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">REALLIFE</div>
+    <ul>
+        <li><a href="index.html">Summary</a></li>
+        <li><a href="about.html">About the Authors</a></li>
+    </ul>
+</nav>
+
+<header class="hero small-hero">
+    <h1 class="hero-title">About the Authors</h1>
+</header>
+
+<section class="content">
+    <h2>The Name: Matt DeTito</h2>
+    <p>"Matt DeTito" merges our names — representing equal contribution to REALLIFE.</p>
+
+    <h2>Anthony Matarazzo</h2>
+    <p>From Southington, CT. Sports fan, family-oriented, inspired by Rocky IV and Avicii.</p>
+
+    <h2>Rowan Devlin</h2>
+    <p>From Newton, MA. Loves film and music — inspired by Tarantino, Guy Ritchie, and Good Will Hunting.</p>
+
+    <h2>Owen Lotito</h2>
+    <p>From Wrentham, MA. Golfer, 3D designer, sports lover, big Harry Potter fan.</p>
+
+    <h2>Inspiration</h2>
+    <p>Born on a night listening to Daft Punk’s Random Access Memories. One question started it all:
+    “What if helmets showed you your dream world?”</p>
+</section>
+
+<footer>
+    <p>© 2025 REALLIFE – Matt DeTito</p>
+</footer>
+
+</body>
+</html>
