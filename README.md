@@ -1,164 +1,156 @@
-# ReallifeMDT
+index.html
+about.html
+style.css
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REALLIFE – Screenplay Summary</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <h1>REALLIFE</h1>
-        <ul>
-            <li><a href="index.html">Summary</a></li>
-            <li><a href="about.html">About the Authors</a></li>
-        </ul>
-    </nav>
 
-    <header class="hero">
-        <h2>A Post-Nuclear War Technologically Advanced Dystopian Sci-Fi</h2>
-        <p class="tagline">“Imagine your imagination… or don’t.”</p>
-    </header>
+<nav>
+    <div class="logo">REALLIFE</div>
+    <ul>
+        <li><a href="index.html">Summary</a></li>
+        <li><a href="about.html">About the Authors</a></li>
+    </ul>
+</nav>
 
-    <section class="content">
-        <h3>Logline</h3>
-        <p>
-            A boxer is living his dream life when he glitches to a post-nuclear dystopian reality 
-            where everyone is wearing helmets. He must do everything in his power to wake the 
-            other Walkers.
-        </p>
+<header class="hero">
+    <div class="overlay"></div>
+    <h1 class="hero-title">REALLIFE</h1>
+    <p class="hero-tagline">Imagine your imagination… or don’t.</p>
+</header>
 
-        <h3>Synopsis</h3>
-        <p>
-            CHAZ is a world-renowned professional boxer with a beautiful wife, CARA, two children—
-            LAYLA and ASHER—along with a mansion and sports car. After a major fight, the family 
-            decides to take a vacation to Hawai‘i. On his private jet, Chaz briefly sees a dystopian 
-            world where people march in a Saint John’s Arm command formation wearing DAFT PUNK-style helmets. 
-            He continues glitching between his dream life and this strange reality.
-        </p>
+<section class="content">
+    <h2>Logline</h2>
+    <p>
+        A boxer is living his dream life when he glitches into a post-nuclear dystopian reality
+        where everyone wears helmets. He must do everything in his power to wake the other Walkers.
+    </p>
 
-        <p>
-            Eventually, he stabilizes inside the dystopia. He wakes three others—ZELMIRA, CLEOPATRA, 
-            and APERIO—who, like him, have been trapped inside dream worlds projected through their helmets. 
-            The four endure “The Gauntlet,” a continuous march under drone surveillance while trying to 
-            understand what is real.
-        </p>
+    <h2>Synopsis</h2>
+    <p>
+        Chaz, a world-renowned boxer, lives a perfect life with his family. During a flight to Hawai'i,
+        he begins glitching into a dystopian world where people march in formation wearing reflective
+        helmets that project dream worlds into their minds.
+    </p>
 
-        <p>
-            They attempt to rally other Walkers, but time runs short. Forced to act alone, the group 
-            launches an assault against the governing body. Their battle leads Chaz and Zel face-to-face 
-            with the President, who claims the government created the helmet system to save humanity 
-            after a devastating nuclear war.
-        </p>
+    <p>
+        Chaz awakens three others trapped in this system and together they attempt to uncover the truth,
+        survive "The Gauntlet," and overthrow the ruling power controlling their minds.
+    </p>
 
-        <p>
-            Overwhelmed, Chaz rejects the explanation, kills the President, and then kills Zel. He returns 
-            to his barrack where visions of his family fill his mind. As he reaches toward his helmet—
-            BUZZER. We reveal an older, out-of-shape Chaz rising from a chair in a mall “Helmet Shop.”
-        </p>
+    <p>
+        Their rebellion spirals into a confrontation with the President, who claims the helmet system
+        is humanity’s last hope after a nuclear war. Overcome by fear and confusion, Chaz kills the
+        President — and then his last remaining ally.
+    </p>
 
-        <h3>Learn More</h3>
-        <p>
-            Explore the story’s creation, inspiration, and the authors behind it on the 
-            <a href="about.html">About the Authors</a> page.
-        </p>
-    </section>
+    <p>
+        As he reaches toward his helmet, BUZZER — and an older, exhausted Chaz awakens in a mall
+        Helmet Shop, leaving the audience questioning what was ever real.
+    </p>
 
-    <footer>
-        <p>© 2025 REALLIFE – Matt DeTito</p>
-    </footer>
+    <h2>Explore More</h2>
+    <p>
+        Learn about the writers and the creation of REALLIFE on the 
+        <a href="about.html">About the Authors</a> page.
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 REALLIFE – Matt DeTito</p>
+</footer>
+
 </body>
 </html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About the Authors – REALLIFE</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <h1>REALLIFE</h1>
-        <ul>
-            <li><a href="index.html">Summary</a></li>
-            <li><a href="about.html">About the Authors</a></li>
-        </ul>
-    </nav>
 
-    <header class="hero">
-        <h2>About the Authors</h2>
-        <p class="tagline">Meet the creators behind REALLIFE</p>
-    </header>
+<nav>
+    <div class="logo">REALLIFE</div>
+    <ul>
+        <li><a href="index.html">Summary</a></li>
+        <li><a href="about.html">About the Authors</a></li>
+    </ul>
+</nav>
 
-    <section class="content">
-        <h3>The Collective Pseudonym: <strong>Matt DeTito</strong></h3>
-        <p>
-            “Matt DeTito” is a combination of all our names—symbolizing equal contribution, 
-            shared ownership, and a unified creative voice. This project exists because each 
-            member shaped it with ideas, passion, and dedication.
-        </p>
+<header class="hero small-hero">
+    <div class="overlay"></div>
+    <h1 class="hero-title">About the Authors</h1>
+</header>
 
-        <h3>Anthony Matarazzo</h3>
-        <p>
-            Anthony (the “Matt” in DeTito) was born and raised in Southington, CT. He enjoys 
-            spending time with family and friends, and loves sports—with favorite teams including 
-            the Dallas Cowboys, Boston Celtics, and Boston Red Sox. His favorite movie is 
-            <em>Rocky IV</em>, and he has a passion for music, especially producer Avicii.
-        </p>
+<section class="content">
+    <h2>The Collective Name: Matt DeTito</h2>
+    <p>
+        "Matt DeTito" is a unified pseudonym created by merging our names — symbolizing equal
+        contribution and shared creativity throughout the writing of REALLIFE.
+    </p>
 
-        <h3>Rowan Devlin</h3>
-        <p>
-            Rowan (the “De” in DeTito) grew up in Newton, MA. A middle child in a big Irish 
-            household, he was raised around his family’s Boston restaurants. Rowan is a lover 
-            of all genres of film and music, especially works like <em>Snatch</em>, 
-            <em>Pulp Fiction</em>, and <em>Good Will Hunting</em>.
-        </p>
+    <h2>Anthony Matarazzo</h2>
+    <p>
+        Born and raised in Southington, CT. A sports fan, family-oriented, and inspired by
+        <em>Rocky IV</em> and producer Avicii.
+    </p>
 
-        <h3>Owen Lotito</h3>
-        <p>
-            Owen (the “Tito” in DeTito) was born and raised in Wrentham, MA. He enjoys golfing, 
-            3D design, and spending time with loved ones. He grew up playing soccer and lacrosse 
-            and is a fan of the <em>Harry Potter</em> series.
-        </p>
+    <h2>Rowan Devlin</h2>
+    <p>
+        From Newton, MA. A lover of film and music, influenced by directors like Guy Ritchie
+        and Quentin Tarantino.
+    </p>
 
-        <h3>Inspiration</h3>
-        <p>
-            REALLIFE was born during a night of music, laughter, and curiosity. A deep dive into 
-            Daft Punk’s album <em>Random Access Memories</em> sparked the idea: 
-            "What if through their helmets, you could see your dream world?"  
-            From this moment came months of development, rewriting, and world-building to create 
-            a story exploring technology addiction, global conflict, and the blurred line between 
-            reality and illusion.
-        </p>
-    </section>
+    <h2>Owen Lotito</h2>
+    <p>
+        From Wrentham, MA. Enjoys golf, 3D design, soccer, and the <em>Harry Potter</em> series.
+    </p>
 
-    <footer>
-        <p>© 2025 REALLIFE – Matt DeTito</p>
-    </footer>
+    <h2>Inspiration</h2>
+    <p>
+        The idea for REALLIFE emerged during a night filled with music, including Daft Punk's
+        <em>Random Access Memories</em>. A single question sparked the script:
+        “What if helmets showed you your dream world?”
+    </p>
+</section>
+
+<footer>
+    <p>© 2025 REALLIFE – Matt DeTito</p>
+</footer>
+
 </body>
 </html>
+/* General Page Styling */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #0d0d0d;
-    color: #f0f0f0;
+    background-color: #000;
+    color: #e6e6e6;
 }
 
+/* Navigation */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background: #111;
-    border-bottom: 1px solid #333;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.85);
+    border-bottom: 1px solid #222;
 }
 
-nav h1 {
-    margin: 0;
-    font-size: 1.4rem;
-    letter-spacing: 1px;
+nav .logo {
+    color: #00e6ff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
 }
 
 nav ul {
@@ -168,46 +160,75 @@ nav ul {
 }
 
 nav ul li a {
-    color: #f0f0f0;
     text-decoration: none;
-    font-size: 1rem;
+    color: #e6e6e6;
+    transition: 0.3s;
 }
 
 nav ul li a:hover {
-    opacity: 0.7;
+    color: #00e6ff;
 }
 
+/* Hero Section */
 .hero {
-    padding: 60px 20px;
+    position: relative;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    background: #1a1a1a;
-    border-bottom: 1px solid #333;
 }
 
-.tagline {
-    font-style: italic;
+.small-hero {
+    height: 40vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.hero-title {
+    position: relative;
+    font-size: 4rem;
+    color: #00e6ff;
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px #00e6ff;
+}
+
+.hero-tagline {
+    position: relative;
+    font-size: 1.2rem;
+    color: #e6e6e6;
     margin-top: 10px;
-    color: #ccc;
 }
 
+/* Content */
 .content {
-    padding: 40px 20px;
     max-width: 900px;
-    margin: auto;
-    line-height: 1.6;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.7;
 }
 
-h3 {
-    margin-top: 40px;
-    color: #ffffff;
-    border-bottom: 1px solid #444;
-    padding-bottom: 10px;
+h2 {
+    color: #00e6ff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
 }
 
+/* Footer */
 footer {
     text-align: center;
     padding: 20px;
-    color: #777;
-    margin-top: 50px;
-    border-top: 1px solid #333;
+    margin-top: 40px;
+    color: #666;
+    border-top: 1px solid #222;
 }
