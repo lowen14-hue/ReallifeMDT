@@ -80,3 +80,23 @@ footer {
     border-top: 1px solid #333;
     margin-top: 50px;
 }
+/* Sections within About page */
+.content hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 2px solid #f39c12;
+}
+
+.content ul {
+    list-style: disc inside;
+    margin-bottom: 2rem;
+}
+
+.content h2 {
+    color: #111;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+}
