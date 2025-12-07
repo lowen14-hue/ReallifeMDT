@@ -1,0 +1,104 @@
+style.css
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000;
+    color: #e6e6e6;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.85);
+    border-bottom: 1px solid #222;
+}
+
+nav .logo {
+    color: #00e6ff;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e6e6e6;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00e6ff;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1526401281623-3591d573fd3f?fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.small-hero {
+    height: 40vh;
+}
+
+/* Overlay */
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Title */
+.hero-title {
+    position: relative;
+    font-size: 4rem;
+    color: #00e6ff;
+    text-shadow: 0 0 15px #00e6ff;
+    z-index: 2;
+}
+
+/* Tagline */
+.hero-tagline {
+    position: relative;
+    color: #cccccc;
+    font-style: italic;
+    margin-top: 10px;
+    z-index: 2;
+}
+
+/* Main Content */
+.content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.7;
+}
+
+h2 {
+    color: #00e6ff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    margin-top: 50px;
+    border-top: 1px solid #222;
+}
