@@ -1,0 +1,54 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REALLIFE – Screenplay Summary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">REALLIFE</div>
+    <ul>
+        <li><a href="index.html">Summary</a></li>
+        <li><a href="about.html">About the Authors</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <h1 class="hero-title">REALLIFE</h1>
+    <p class="hero-tagline">Imagine your imagination… or don’t.</p>
+</header>
+
+<section class="content">
+    <h2>Logline</h2>
+    <p>A boxer is living his dream life when he glitches into a post-nuclear dystopian reality
+    where everyone wears helmets. He must do everything in his power to wake the other Walkers.</p>
+
+    <h2>Synopsis</h2>
+    <p>Chaz, a world-renowned boxer, lives a perfect life with his family. During a flight to Hawai'i,
+    he begins glitching into a dystopian world where people march in formation wearing reflective
+    helmets that project dream worlds into their minds.</p>
+
+    <p>He awakens three others trapped in this system and together they uncover the truth, survive
+    “The Gauntlet,” and attempt to overthrow the power controlling their minds.</p>
+
+    <p>Their rebellion leads to a final confrontation with the President, who insists the helmet system
+    is the only way to save humanity after a nuclear war. Overwhelmed, Chaz kills her — and then his
+    last remaining ally.</p>
+
+    <p>As he reaches toward his helmet… BUZZER. An older, exhausted Chaz stands up in a mall Helmet Shop.
+    What was real…?</p>
+
+    <h2>More</h2>
+    <p><a href="about.html">About the Authors</a></p>
+</section>
+
+<footer>
+    <p>© 2025 REALLIFE – Matt DeTito</p>
+</footer>
+
+</body>
+</html>
