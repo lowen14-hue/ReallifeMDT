@@ -1,6 +1,8 @@
-index.html
-about.html
-style.css
+ReallifeMDT/
+│
+├── index.html
+├── about.html
+└── style.css
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +22,6 @@ style.css
 </nav>
 
 <header class="hero">
-    <div class="overlay"></div>
     <h1 class="hero-title">REALLIFE</h1>
     <p class="hero-tagline">Imagine your imagination… or don’t.</p>
 </header>
@@ -87,7 +88,6 @@ style.css
 </nav>
 
 <header class="hero small-hero">
-    <div class="overlay"></div>
     <h1 class="hero-title">About the Authors</h1>
 </header>
 
@@ -101,24 +101,24 @@ style.css
     <h2>Anthony Matarazzo</h2>
     <p>
         Born and raised in Southington, CT. A sports fan, family-oriented, and inspired by
-        <em>Rocky IV</em> and producer Avicii.
+        Rocky IV and producer Avicii.
     </p>
 
     <h2>Rowan Devlin</h2>
     <p>
-        From Newton, MA. A lover of film and music, influenced by directors like Guy Ritchie
-        and Quentin Tarantino.
+        From Newton, MA. A lover of film and music, influenced by directors like Guy Ritchie,
+        Quentin Tarantino, and Gus Van Sant.
     </p>
 
     <h2>Owen Lotito</h2>
     <p>
-        From Wrentham, MA. Enjoys golf, 3D design, soccer, and the <em>Harry Potter</em> series.
+        From Wrentham, MA. Enjoys golf, 3D design, soccer, and the Harry Potter series.
     </p>
 
     <h2>Inspiration</h2>
     <p>
         The idea for REALLIFE emerged during a night filled with music, including Daft Punk's
-        <em>Random Access Memories</em>. A single question sparked the script:
+        Random Access Memories. A single question sparked the script:
         “What if helmets showed you your dream world?”
     </p>
 </section>
@@ -129,15 +129,14 @@ style.css
 
 </body>
 </html>
-/* General Page Styling */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #000;
+    background: #000000;
     color: #e6e6e6;
 }
 
-/* Navigation */
+/* Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -173,7 +172,7 @@ nav ul li a:hover {
 .hero {
     position: relative;
     height: 60vh;
-    background-image: url('https://images.unsplash.com/photo-1535223289827-42f1e9919769?fit=crop&w=1600&q=80');
+    background-image: url('https://images.unsplash.com/photo-1526401281623-3591d573fd3f?fit=crop&w=1600&q=80');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -186,31 +185,33 @@ nav ul li a:hover {
     height: 40vh;
 }
 
-.overlay {
+/* Dark overlay */
+.hero::after {
+    content: "";
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.65);
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
 }
 
+/* Hero Title */
 .hero-title {
     position: relative;
     font-size: 4rem;
     color: #00e6ff;
-    letter-spacing: 4px;
-    text-shadow: 0 0 20px #00e6ff;
+    text-shadow: 0 0 15px #00e6ff;
+    z-index: 2;
 }
 
+/* Tagline */
 .hero-tagline {
     position: relative;
-    font-size: 1.2rem;
-    color: #e6e6e6;
+    color: #cccccc;
+    font-style: italic;
     margin-top: 10px;
+    z-index: 2;
 }
 
-/* Content */
+/* Main Content */
 .content {
     max-width: 900px;
     margin: 40px auto;
@@ -228,7 +229,7 @@ h2 {
 footer {
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-    color: #666;
+    color: #777;
+    margin-top: 50px;
     border-top: 1px solid #222;
 }
