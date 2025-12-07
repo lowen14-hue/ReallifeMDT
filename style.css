@@ -1,3 +1,4 @@
+/* GLOBAL */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,6 +6,10 @@ body {
     color: #f0f0f0;
 }
 
+a { color: #66b3ff; }
+a:hover { opacity: 0.7; }
+
+/* NAV */
 nav {
     display: flex;
     justify-content: space-between;
@@ -32,19 +37,19 @@ nav ul li a {
     font-size: 1rem;
 }
 
-nav ul li a:hover {
-    opacity: 0.6;
-}
+nav ul li a:hover { opacity: 0.6; }
 
+/* HERO */
 .hero {
     padding: 60px 20px;
     text-align: center;
-    background: #1a1a1a;
+    background: linear-gradient(180deg, #141414, #0a0a0a);
     border-bottom: 1px solid #333;
 }
 
 .hero-title {
     font-size: 3rem;
+    letter-spacing: 3px;
 }
 
 .hero-tagline {
@@ -53,6 +58,7 @@ nav ul li a:hover {
     color: #ccc;
 }
 
+/* CONTENT */
 .content {
     padding: 40px 20px;
     max-width: 900px;
@@ -66,6 +72,7 @@ h2 {
     padding-bottom: 5px;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
