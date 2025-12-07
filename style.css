@@ -6,8 +6,13 @@ body {
     color: #f0f0f0;
 }
 
-a { color: #66b3ff; }
-a:hover { opacity: 0.7; }
+a { 
+    color: #66b3ff; 
+    text-decoration: none;
+}
+a:hover { 
+    opacity: 0.7; 
+}
 
 /* NAV */
 nav {
@@ -33,11 +38,13 @@ nav ul {
 
 nav ul li a {
     color: #ddd;
-    text-decoration: none;
     font-size: 1rem;
+    transition: opacity 0.3s;
 }
 
-nav ul li a:hover { opacity: 0.6; }
+nav ul li a:hover { 
+    opacity: 0.6; 
+}
 
 /* HERO */
 .hero {
@@ -66,10 +73,36 @@ nav ul li a:hover { opacity: 0.6; }
     line-height: 1.7;
 }
 
-h2 {
-    color: #ffffff;
-    border-bottom: 1px solid #444;
-    padding-bottom: 5px;
+/* Section headings */
+.content h2 {
+    color: #f39c12; /* Lighter, bright heading for readability */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f39c12;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+}
+
+/* Horizontal rule styling */
+.content hr {
+    margin: 2rem 0;
+    border: none;
+    border-top: 2px solid #f39c12;
+}
+
+/* Lists */
+.content ul {
+    list-style: disc inside;
+    margin-bottom: 2rem;
+}
+
+.content ul li {
+    margin-bottom: 0.8rem;
+    line-height: 1.5;
+}
+
+.content ul li strong {
+    color: #f39c12; /* Highlight key terms like glossary */
 }
 
 /* FOOTER */
@@ -79,24 +112,4 @@ footer {
     color: #888;
     border-top: 1px solid #333;
     margin-top: 50px;
-}
-/* Sections within About page */
-.content hr {
-    margin: 2rem 0;
-    border: none;
-    border-top: 2px solid #f39c12;
-}
-
-.content ul {
-    list-style: disc inside;
-    margin-bottom: 2rem;
-}
-
-.content h2 {
-    color: #111;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    border-bottom: 2px solid #f39c12;
-    display: inline-block;
-    padding-bottom: 0.2rem;
 }
