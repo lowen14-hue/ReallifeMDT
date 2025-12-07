@@ -1,25 +1,23 @@
-style.css
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #000000;
-    color: #e6e6e6;
+    background: #0a0a0a;
+    color: #f0f0f0;
 }
 
-/* Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
-    background: rgba(0, 0, 0, 0.85);
-    border-bottom: 1px solid #222;
+    padding: 20px;
+    background: #111;
+    border-bottom: 1px solid #333;
 }
 
 nav .logo {
-    color: #00e6ff;
     font-size: 1.5rem;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -29,76 +27,49 @@ nav ul {
 }
 
 nav ul li a {
+    color: #ddd;
     text-decoration: none;
-    color: #e6e6e6;
-    transition: 0.3s;
+    font-size: 1rem;
 }
 
 nav ul li a:hover {
-    color: #00e6ff;
+    opacity: 0.6;
 }
 
-/* Hero Section */
 .hero {
-    position: relative;
-    height: 60vh;
-    background-image: url('https://images.unsplash.com/photo-1526401281623-3591d573fd3f?fit=crop&w=1600&q=80');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 60px 20px;
     text-align: center;
+    background: #1a1a1a;
+    border-bottom: 1px solid #333;
 }
 
-.small-hero {
-    height: 40vh;
-}
-
-/* Overlay */
-.hero::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
-
-/* Title */
 .hero-title {
-    position: relative;
-    font-size: 4rem;
-    color: #00e6ff;
-    text-shadow: 0 0 15px #00e6ff;
-    z-index: 2;
+    font-size: 3rem;
 }
 
-/* Tagline */
 .hero-tagline {
-    position: relative;
-    color: #cccccc;
     font-style: italic;
     margin-top: 10px;
-    z-index: 2;
+    color: #ccc;
 }
 
-/* Main Content */
 .content {
+    padding: 40px 20px;
     max-width: 900px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: auto;
     line-height: 1.7;
 }
 
 h2 {
-    color: #00e6ff;
-    border-bottom: 1px solid #333;
-    padding-bottom: 8px;
+    color: #ffffff;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    color: #777;
+    color: #888;
+    border-top: 1px solid #333;
     margin-top: 50px;
-    border-top: 1px solid #222;
 }
